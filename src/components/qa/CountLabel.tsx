@@ -1,0 +1,1 @@
+export default function CountLabel({ tests, signatures }: { tests: number; signatures?: number }) { return <span className="count-label">{tests} tests{signatures !== undefined ? ` in ${signatures} signatures` : ''}</span> }
